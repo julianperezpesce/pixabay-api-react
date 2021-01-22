@@ -1,4 +1,5 @@
 dependencies:
+  prop-types: 15.7.2
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
 devDependencies:
@@ -1931,6 +1932,14 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg==
+  /prop-types/15.7.2:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: false
+    resolution:
+      integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
   /pump/3.0.0:
     dependencies:
       end-of-stream: 1.4.4
@@ -1955,6 +1964,10 @@ packages:
       react: 17.0.1
     resolution:
       integrity: sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
+  /react-is/16.13.1:
+    dev: false
+    resolution:
+      integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
   /react-refresh/0.8.3:
     dev: true
     engines:
@@ -2456,6 +2469,7 @@ packages:
     resolution:
       integrity: sha512-faQrqNMzcPCHGVC2aaOINk13K+aaBDUPjGWl0teOXywElLjyVAB6Oe2jj62jHYtwsU49jXhScYbvPENK+6zAvQ==
 specifiers:
+  prop-types: ^15.7.2
   react: ^17.0.0
   react-dom: ^17.0.0
   vite: ^1.0.0-rc.13
